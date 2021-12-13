@@ -163,8 +163,8 @@ GRAPHICS-WINDOW
 16
 -16
 16
-0
-0
+1
+1
 1
 ticks
 30.0
@@ -178,7 +178,7 @@ voter_count
 voter_count
 1
 200
-36.0
+106.0
 1
 1
 NIL
@@ -193,7 +193,7 @@ lijsttrekker_count
 lijsttrekker_count
 1
 6
-3.0
+5.0
 1
 1
 NIL
@@ -379,41 +379,23 @@ afstand_rep
 11
 
 @#$#@#$#@
-## WHAT IS IT?
+## WHAT IS IT
 
-(a general understanding of what the model is trying to show or explain)
+In wezen is het een simulatie die drie verschillende manieren van lijsttrekkingen kan simuleren. Dat zijn plurality voting, approval voting en Instant-runoff voting.
+
 
 ## HOW IT WORKS
 
-(what rules the agents use to create the overall behavior of the model)
+Je hebt twee agents. Je hebt de lijsttrekker en de stemmer. Er wordt gesimuleert welke stemmer welke lijsttrekker kiest (op basis van het gekozen stem systeem). Hieruit komt ook een RMSE, deze laat zien hoe groot de afstand is van de stemmer naar de winnaar en laat zien welk stem systeem het gemiddeld het beste doet.
+
 
 ## HOW TO USE IT
 
-(how to use the model, including a description of each of the items in the Interface tab)
+Je begint met twee sliders. Bij de eerste slider kies je hoeveel stemmers je wilt hebben in je simulatie. Bij de tweede slider kan je kiezen hoeveel lijsttrekkers er zijn. Dit kunnen maximaal 200 stemmers zijn en maximaal 6 lijsttrekkers. Daaronder heb je de setup knop, deze knop herstelt alle simulaties en creeert een random opstelling van de agents. Hieronder staan de drie knoppen die de drie verschillende stem systemen aanroepen. Dus voor het aaanroepen van een simulatie dien je de knop in te drukken van het gewensde stem systeem. Vevolgens zijn er nog een paar statistieken te zien over de simulaties. Te beginnen met de counters die bijhouden hoevaak een bepaalde lijsttrekker is gekozen. En hieronder de RMSE van de winnaar van de verkiezing. Onderaan vindt je ook nog een knop die de winnaar van de verkiezing laat zien.
 
-## THINGS TO NOTICE
 
-(suggested things for the user to notice while running the model)
 
-## THINGS TO TRY
 
-(suggested things for the user to try to do (move sliders, switches, etc.) with the model)
-
-## EXTENDING THE MODEL
-
-(suggested things to add or change in the Code tab to make the model more complicated, detailed, accurate, etc.)
-
-## NETLOGO FEATURES
-
-(interesting or unusual features of NetLogo that the model uses, particularly in the Code tab; or where workarounds were needed for missing features)
-
-## RELATED MODELS
-
-(models in the NetLogo Models Library and elsewhere which are of related interest)
-
-## CREDITS AND REFERENCES
-
-(a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)
 @#$#@#$#@
 default
 true
