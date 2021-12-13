@@ -22,7 +22,7 @@ to setup
     setxy random-pxcor random-pycor
   ]
     create-lijsttrekkers lijsttrekker_count [
-    set shape "person "
+    set shape "person"
 
     set size 3
     setxy random-xcor random-ycor
@@ -170,15 +170,15 @@ ticks
 30.0
 
 SLIDER
-15
-26
-187
-59
+116
+10
+288
+43
 voter_count
 voter_count
 1
 200
-36.0
+105.0
 1
 1
 NIL
